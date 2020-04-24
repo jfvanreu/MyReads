@@ -2,7 +2,7 @@
 
 This is my first ReactJS project in the context of Udacity's React JS nano-degree program. This is an application which allows users to track their favorite books and classify them in different categories (reading, want to read and read). This project used [Create React App](https://github.com/facebookincubator/create-react-app) to bootstrap the project so I could leverage the "look and feel" (CSS) of the app.
 
-## TL;DR
+## Instructions
 
 To launch the app:
 
@@ -39,9 +39,9 @@ To launch the app:
 This project is composed of 5 key components:
 
 * The main app (home) page which displays bookshelves
-* A bookshelf component which displays books that I marked with a certain status
-* A book component which displays info on each book (cover, author, title, etc...)
-* A bookshelf switcher component which allows users to switch the status of each book. There are 4 status: currently reading, want to read, read and none.
+* A Bookshelf component which displays books that I marked with a certain status
+* A Book component which displays info on each book (cover, author, title, etc...)
+* A BookshelfChanger component which allows users to switch the status of each book. There are 4 status: currently reading, want to read, read and none.
 * A SearchBook component which allows users to search books based on author and title. This component leverages the book component.
 
 ## Further work
